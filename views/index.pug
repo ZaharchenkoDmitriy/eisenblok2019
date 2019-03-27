@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  header
+    img(alt=defaultData.logo.alt, title = defaultData.logo.title, src=defaultData.logo.src)
+    ul
+      for link in data.links
+        li
+          a(href=link.link)= link.text
+    div#languages
+      a(class=language === 'ru' ? 'active' : '', rel='alternate', href=defaultData.linkToUa) Ru
+      a(class=language === 'ua' ? 'active' : '', rel='alternate', href=defaultData.linkToRu) Ua
+  section(id='landing-page')
+    h1= data.h1
+    a(href=data.contactLink.link)= data.contactLink.text
+    p= data.contactInfo.numbers[0]
