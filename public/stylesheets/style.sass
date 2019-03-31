@@ -1,6 +1,214 @@
-body
-  padding: 50px
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+$orange: #f7873f
+$darkGrey: #303030
+$lightGrey: #767676
 
+body
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  width: 100vw
+  height: 100vh
+  overflow-x: hidden
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+ul
+  list-style-type: none
 a
-  color: #00B7FF
+  text-decoration: none
+p
+  line-height: 1.5rem
+
+.w80
+  max-width: 1200px
+h2
+  margin-top: 15vh
+  margin-bottom: 7vh
+  text-align: center
+  font-size: 3.3rem
+  text-decoration: underline
+  color: $darkGrey
+
+header
+  padding: 1rem 3rem
+  top: 0
+  position: absolute
+  width: 100vw
+  #languages
+    float: right
+    color: white
+    margin-top: -1rem
+    a
+      color: white
+    a.active
+      color: $orange
+    span
+      margin: 0 5px
+  img
+    float: left
+  ul
+    width: 20rem
+    margin: auto
+    display: flex
+    justify-content: space-between
+    a
+      color: white
+
+.button-orange
+  color: white
+  background: $orange
+  display: inline-block
+  text-transform: capitalize
+
+#landing-page
+  background: $darkGrey
+  height: 100vh
+  padding-top: 40vh
+  text-align: center
+  h1
+    color: white
+    text-decoration: underline
+    font-size: 3.5rem
+    max-width: 900px
+    margin: auto
+
+  a
+    margin-top: 3rem
+    padding: 1.7rem 6rem
+  p
+    text-align: right
+    margin-top: calc(60vh - 18.5rem)
+    margin-right: 5rem
+    color: $orange
+
+#why-us
+  color: $darkGrey
+  padding-bottom: 20vh
+  ul
+    margin: auto
+    display: flex
+    justify-content: space-between
+    li
+      width: 20%
+      text-align: center
+      img
+        width: 30%
+        color: $orange
+        height: auto
+      label
+        display: block
+        margin-top: 1.5rem
+        margin-bottom: 1rem
+        font-weight: bold
+      p
+        color: $lightGrey
+
+#services
+  padding: 5rem 12vw
+  background: $darkGrey
+  color: white
+  display: flex
+  justify-content: space-around
+  p
+    color: #d5d5d5
+    font-weight: 200
+  h2
+    color: white
+    display: inline-block
+    padding: 0
+    margin: 0.5rem 0 1.5rem 0
+    text-align: left
+  div
+    position: relative
+    width: 45%
+  #contact-block
+    width: 100%
+    height: initial
+    position: absolute
+    bottom: 0
+    p
+      font-weight: 600
+    a
+      margin-top: 2rem
+      padding: .8rem 1.5rem
+
+#about-us
+  padding-bottom: 10rem
+  h2
+    margin-bottom: 5rem
+  p
+    margin: auto
+    max-width: 900px
+    column-count: 2
+    column-gap: 100px
+    color: $lightGrey
+    font-size: 1.2rem
+#contacts
+  width: 100vw
+  height: 20rem
+  background-image: url('/images/map.png')
+  background-size: cover
+  background-position: center
+  position: relative
+  div
+    position: absolute
+    right: 5rem
+    top: 5rem
+    padding: 1rem 6rem 1rem 2.5rem
+    color: $lightGrey
+    background: white
+    font-size: 0.8rem
+    border-radius: 5px
+    #email
+      color: $orange
+    li:last-of-type
+      margin-top: 1rem
+    li:first-of-type
+      margin-bottom: 1rem
+      line-height: 1.5rem
+
+
+.blue-textfield
+  background: #e4f1fd
+  color: #5197d5
+  display: block
+  border: none
+  padding: 0.7rem
+  font-weight: bold
+  margin: 0.5rem
+.blue-textfield::placeholder
+  color: #5197d5
+  font-weight: bold
+
+#contact-us
+  padding-top: 5rem
+  padding-bottom: 4rem
+  button
+    padding: .8rem 1.5rem
+    border: none
+    margin: auto
+    font-weight: 600
+  form
+    margin: auto
+
+footer
+  text-align: center
+  color: $lightGrey
+  padding-bottom: 1.5rem
+
+@media only screen and (max-width: 1000px)
+  #about-us
+    p
+      column-count: 1
+      width: 80vw
+      text-align: justify
+  #services
+    flex-direction: column
+    justify-content: start
+    padding: 5vh 0 5vh 5vw
+    div
+      width: 90vw
+      #contact-block
+        position: relative
+        margin-top: 2rem
+

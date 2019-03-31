@@ -1,8 +1,9 @@
 doctype html
 html
   head
-    title= data.meta.title
+    title= data ? data.meta.title : "WireframeRu"
     link(rel='stylesheet', href='/stylesheets/style.css')
   body
     block content
-git init
+    script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+    script(src='javascripts/main.js')

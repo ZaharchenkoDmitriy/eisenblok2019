@@ -8,9 +8,48 @@ block content
         li
           a(href=link.link)= link.text
     div#languages
-      a(class=language === 'ru' ? 'active' : '', rel='alternate', href=defaultData.linkToUa) Ru
-      a(class=language === 'ua' ? 'active' : '', rel='alternate', href=defaultData.linkToRu) Ua
+      a(class=language === 'ru' ? 'active' : '', rel='alternate', href=defaultData.linkToRu) Ru
+      span /
+      a(class=language === 'ua' ? 'active' : '', rel='alternate', href=defaultData.linkToUa) Ua
   section(id='landing-page')
     h1= data.h1
-    a(href=data.contactLink.link)= data.contactLink.text
+    a.button-orange.contact-link(href=data.contactLink.link)= data.contactLink.text
     p= data.contactInfo.numbers[0]
+  section#why-us
+    h2= data.whyUs.title
+    ul.w80
+      for benefit in data.whyUs.benefits
+        li
+          img(alt='star', title=benefit.img.title, src=benefit.img.src, name='benefit')
+          label(for='benefit')= benefit.title
+          p= benefit.text
+  section#services
+    div
+      span= data.services.subTitle
+      h2= data.services.title
+      p= data.services.textLeft
+    div
+      p= data.services.textRight
+      div#contact-block
+        for p in data.services.ps
+          p= p
+        a.button-orange.contact-link(href=data.contactLink.link)= data.contactLink.text
+
+  section#about-us
+    h2= data.aboutUs.title
+    p= data.aboutUs.text
+
+  section#contacts
+    div
+      ul
+        li !{data.contactInfo.address}
+        li#email= data.contactInfo.email
+        for number in data.contactInfo.numbers
+          li=number
+  section#contact-us
+    form.w80
+      input.blue-textfield(placeholder=data.namePlaceHolder, name='name')
+      textarea.blue-textfield(name='message', placeholder=data.messagePlaceHolder)
+      button.button-orange(type='submit')= data.submitText
+  footer © 1823 — 2016 Great Simple Studio
+
