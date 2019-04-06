@@ -3,10 +3,12 @@ $darkGrey: #303030
 $lightGrey: #767676
 
 body
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif
+  font: 1rem Helvetica, sans-serif
   width: 100vw
   height: 100vh
   overflow-x: hidden
+
+
 
 *
   margin: 0
@@ -35,9 +37,11 @@ header
   position: absolute
   width: 100vw
   #languages
-    float: right
     color: white
-    margin-top: -1rem
+    position: absolute
+    right: 2rem
+    top: 1rem
+    width: 6rem
     a
       color: white
     a.active
@@ -45,12 +49,19 @@ header
     span
       margin: 0 5px
   img
-    float: left
+    position: absolute
+    left: 2rem
+    top: .5rem
+    max-width: 150px
   ul
-    width: 20rem
+    width: 100%
+    max-width: 30rem
     margin: auto
     display: flex
+    position: relative
     justify-content: space-between
+    li
+      text-align: center
     a
       color: white
 
@@ -75,10 +86,12 @@ header
   a
     margin-top: 3rem
     padding: 1.7rem 6rem
-  p
+  #number
     text-align: right
+    display: block
+    padding: 0
     margin-top: calc(60vh - 18.5rem)
-    margin-right: 5rem
+    margin-right: 2rem
     color: $orange
 
 #why-us
@@ -92,9 +105,9 @@ header
       width: 20%
       text-align: center
       img
-        width: 30%
+        width: auto
+        height: 80px
         color: $orange
-        height: auto
       label
         display: block
         margin-top: 1.5rem
@@ -132,6 +145,7 @@ header
       margin-top: 2rem
       padding: .8rem 1.5rem
 
+
 #about-us
   padding-bottom: 10rem
   h2
@@ -145,15 +159,15 @@ header
     font-size: 1.2rem
 #contacts
   width: 100vw
-  height: 20rem
-  background-image: url('/images/map.png')
+  height: 40rem
+  background-image: url('/images/map.svg')
   background-size: cover
   background-position: center
   position: relative
   div
     position: absolute
-    right: 5rem
-    top: 5rem
+    margin-left: calc(49%)
+    top: 18rem
     padding: 1rem 6rem 1rem 2.5rem
     color: $lightGrey
     background: white
@@ -161,11 +175,9 @@ header
     border-radius: 5px
     #email
       color: $orange
-    li:last-of-type
-      margin-top: 1rem
+      margin-bottom: 1rem
     li:first-of-type
       margin-bottom: 1rem
-      line-height: 1.5rem
 
 
 .blue-textfield
@@ -174,15 +186,23 @@ header
   display: block
   border: none
   padding: 0.7rem
-  font-weight: bold
-  margin: 0.5rem
+  margin: auto
+  margin-bottom: 0.7rem
+  width: 90vw
+  max-width: 600px
+  resize: none
+.blue-textfield:focus::placeholder
+  color: #e4f1fd
+
+
 .blue-textfield::placeholder
   color: #5197d5
-  font-weight: bold
 
 #contact-us
   padding-top: 5rem
-  padding-bottom: 4rem
+  padding-bottom: 3.5rem
+  textarea
+    height: 15rem
   button
     padding: .8rem 1.5rem
     border: none
@@ -190,6 +210,8 @@ header
     font-weight: 600
   form
     margin: auto
+    text-align: center
+
 
 footer
   text-align: center
@@ -197,6 +219,35 @@ footer
   padding-bottom: 1.5rem
 
 @media only screen and (max-width: 1000px)
+  .contact-link
+    padding: 1.5rem 3rem !important
+    font-size: 2.5rem
+    text-align: center
+    font-weight: bold
+  #why-us
+    .w80
+      display: block
+      li
+        text-align: center
+        min-width: 400px
+        margin: 2rem calc((100vw - 800px) / 4)
+        display: inline-block
+        label
+          font-size: 1.5rem
+        p
+          max-width: 300px
+          font-size: 1.5rem
+          margin: auto
+
+  .blue-textfield
+    max-width: none !important
+    height: 5rem
+    font-size: 3rem !important
+  form
+    .button-orange
+      margin-top: 2rem !important
+      padding: 1.5rem 3rem !important
+      font-size: 2.5rem
   #about-us
     p
       column-count: 1
@@ -212,3 +263,21 @@ footer
         position: relative
         margin-top: 2rem
 
+  header
+    font-size: 2rem
+    #languages
+      top: 96.5vh
+      left: 2rem
+      font-size: 2rem
+    ul
+      max-width: 80vw !important
+      margin-top: 2rem
+    img
+      top: 20rem !important
+      left: 15vw !important
+      margin: auto !important
+      max-width: 70vw !important
+  #number
+    padding: 0
+    font-size: 2rem
+    margin-top: calc(60vh - 21rem) !important

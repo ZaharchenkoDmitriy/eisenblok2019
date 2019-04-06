@@ -25,10 +25,10 @@ module.exports.contactLink = {link: '', text: 'контакти'};
 module.exports.whyUs = {
     title: 'Чому ми?',
     benefits: [
-        {title: '', alt: '', text: '', img: ''},
-        {title: '', alt: '', text: '', img: ''},
-        {title: '', alt: '', text: '', img: ''},
-        {title: '', alt: '', text: '', img: ''}
+        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'tes', src: 'images/benefits/payment.png'}},
+        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'test', src: 'images/benefits/materials.png'}},
+        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'tes', title: 'tes', src: 'images/benefits/delivery.png'}},
+        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'test', src: 'images/benefits/stability.png'}}
     ]
 };
 

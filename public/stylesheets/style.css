@@ -1,5 +1,5 @@
 body {
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 1rem Helvetica, sans-serif;
   width: 100vw;
   height: 100vh;
   overflow-x: hidden; }
@@ -35,9 +35,11 @@ header {
   position: absolute;
   width: 100vw; }
   header #languages {
-    float: right;
     color: white;
-    margin-top: -1rem; }
+    position: absolute;
+    right: 2rem;
+    top: 1rem;
+    width: 6rem; }
     header #languages a {
       color: white; }
     header #languages a.active {
@@ -45,12 +47,19 @@ header {
     header #languages span {
       margin: 0 5px; }
   header img {
-    float: left; }
+    position: absolute;
+    left: 2rem;
+    top: .5rem;
+    max-width: 150px; }
   header ul {
-    width: 20rem;
+    width: 100%;
+    max-width: 30rem;
     margin: auto;
     display: flex;
+    position: relative;
     justify-content: space-between; }
+    header ul li {
+      text-align: center; }
     header ul a {
       color: white; }
 
@@ -74,10 +83,12 @@ header {
   #landing-page a {
     margin-top: 3rem;
     padding: 1.7rem 6rem; }
-  #landing-page p {
+  #landing-page #number {
     text-align: right;
+    display: block;
+    padding: 0;
     margin-top: calc(60vh - 18.5rem);
-    margin-right: 5rem;
+    margin-right: 2rem;
     color: #f7873f; }
 
 #why-us {
@@ -91,9 +102,9 @@ header {
       width: 20%;
       text-align: center; }
       #why-us ul li img {
-        width: 30%;
-        color: #f7873f;
-        height: auto; }
+        width: auto;
+        height: 80px;
+        color: #f7873f; }
       #why-us ul li label {
         display: block;
         margin-top: 1.5rem;
@@ -145,27 +156,25 @@ header {
 
 #contacts {
   width: 100vw;
-  height: 20rem;
-  background-image: url("/images/map.png");
+  height: 40rem;
+  background-image: url("/images/map.svg");
   background-size: cover;
   background-position: center;
   position: relative; }
   #contacts div {
     position: absolute;
-    right: 5rem;
-    top: 5rem;
+    margin-left: calc(49%);
+    top: 18rem;
     padding: 1rem 6rem 1rem 2.5rem;
     color: #767676;
     background: white;
     font-size: 0.8rem;
     border-radius: 5px; }
     #contacts div #email {
-      color: #f7873f; }
-    #contacts div li:last-of-type {
-      margin-top: 1rem; }
+      color: #f7873f;
+      margin-bottom: 1rem; }
     #contacts div li:first-of-type {
-      margin-bottom: 1rem;
-      line-height: 1.5rem; }
+      margin-bottom: 1rem; }
 
 .blue-textfield {
   background: #e4f1fd;
@@ -173,23 +182,31 @@ header {
   display: block;
   border: none;
   padding: 0.7rem;
-  font-weight: bold;
-  margin: 0.5rem; }
+  margin: auto;
+  margin-bottom: 0.7rem;
+  width: 90vw;
+  max-width: 600px;
+  resize: none; }
+
+.blue-textfield:focus::placeholder {
+  color: #e4f1fd; }
 
 .blue-textfield::placeholder {
-  color: #5197d5;
-  font-weight: bold; }
+  color: #5197d5; }
 
 #contact-us {
   padding-top: 5rem;
-  padding-bottom: 4rem; }
+  padding-bottom: 3.5rem; }
+  #contact-us textarea {
+    height: 15rem; }
   #contact-us button {
     padding: .8rem 1.5rem;
     border: none;
     margin: auto;
     font-weight: 600; }
   #contact-us form {
-    margin: auto; }
+    margin: auto;
+    text-align: center; }
 
 footer {
   text-align: center;
@@ -197,6 +214,32 @@ footer {
   padding-bottom: 1.5rem; }
 
 @media only screen and (max-width: 1000px) {
+  .contact-link {
+    padding: 1.5rem 3rem !important;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: bold; }
+  #why-us .w80 {
+    display: block; }
+    #why-us .w80 li {
+      text-align: center;
+      min-width: 400px;
+      margin: 2rem calc((100vw - 800px) / 4);
+      display: inline-block; }
+      #why-us .w80 li label {
+        font-size: 1.5rem; }
+      #why-us .w80 li p {
+        max-width: 300px;
+        font-size: 1.5rem;
+        margin: auto; }
+  .blue-textfield {
+    max-width: none !important;
+    height: 5rem;
+    font-size: 3rem !important; }
+  form .button-orange {
+    margin-top: 2rem !important;
+    padding: 1.5rem 3rem !important;
+    font-size: 2.5rem; }
   #about-us p {
     column-count: 1;
     width: 80vw;
@@ -209,6 +252,24 @@ footer {
       width: 90vw; }
       #services div #contact-block {
         position: relative;
-        margin-top: 2rem; } }
+        margin-top: 2rem; }
+  header {
+    font-size: 2rem; }
+    header #languages {
+      top: 96.5vh;
+      left: 2rem;
+      font-size: 2rem; }
+    header ul {
+      max-width: 80vw !important;
+      margin-top: 2rem; }
+    header img {
+      top: 20rem !important;
+      left: 15vw !important;
+      margin: auto !important;
+      max-width: 70vw !important; }
+  #number {
+    padding: 0;
+    font-size: 2rem;
+    margin-top: calc(60vh - 21rem) !important; } }
 
 /*# sourceMappingURL=style.css.map */

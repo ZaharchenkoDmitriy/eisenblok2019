@@ -25,10 +25,10 @@ module.exports.contactLink = {link: '#contact-us', text: 'контакти'};
 module.exports.whyUs = {
     title: 'Чому ми?',
     benefits: [
-        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'test', src: 'images/icons/star.png'}},
-        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'tes', title: 'tes', src: 'images/icons/star.png'}},
-        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'tes', src: 'images/icons/star.png'}},
-        { title: 'test', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'test', src: 'images/icons/star.png'}}
+        { title: 'Якість матеріалів', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'test', src: 'images/benefits/materials.svg'}},
+        { title: 'Оплата у рострочку', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'tes', src: 'images/benefits/payment.svg'}},
+        { title: 'Стабільність виробництва', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'test', title: 'test', src: 'images/benefits/stability.svg'}},
+        { title: 'Швидка доставка', text: 'Far from the countries Vokalia and Consonantia', img: {alt: 'tes', title: 'tes', src: 'images/benefits/delivery.svg'}}
     ]
 };
 
@@ -75,11 +75,12 @@ module.exports.partners = [ {
 }];
 
 module.exports.contactInfo = {
-  address: 'Saint-Petersburg,<br>' +
-      '191186 Millionnaya st. 29',
+  address: 'с. Вергуни Черкаська обл.,<br>' +
+      'вул. Гагаріна 63',
   email: 'email@mail.com',
-  numbers: ['20142412-123-123']
+  numbers: ['+38 097 744 81 32', '+38 067 775 38 68']
 };
 module.exports.submitText = 'Надіслати';
-module.exports.messagePlaceHolder = 'Тут плейсхолдер для текста';
-module.exports.namePlaceHolder = 'Тут плейсхолдер для имени';
+module.exports.namePlaceHolder = 'Імя';
+module.exports.numberPlaceHolderm = 'Номер телефону, або пошта';
+module.exports.messagePlaceHolder = 'Повідомлення';

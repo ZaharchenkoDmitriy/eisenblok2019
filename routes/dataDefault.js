@@ -1,7 +1,7 @@
 module.exports.logo = {
     alt: 'logo',
     text: 'eisenblock',
-    src: '',
+    src: 'images/logo.png',
     title: 'eisenblock'
 }
 module.exports.linkToUa = 'http://localhost:3000/ua'

@@ -2,9 +2,262 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8d58c8de-dfe0-4592-9e92-df41fd1dbc5d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/eisenblock.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/eisenblock.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cleancss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/cleancss.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/History.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/History.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/bin/cleancss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/clean.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/clean.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/colors/hex-name-shortener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/colors/hsl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/colors/rgb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/imports/inliner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/break-up.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/can-override.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/clone.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/compactable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/every-combination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/has-inherit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/invalid-property-error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/optimizer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/override-compactor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/populate-components.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/remove-unused.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/restore-from-optimizing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/restore.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/shorthand-compactor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/validator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/vendor-prefixes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/properties/wrap-for-optimizing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/advanced.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/clean-up.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/extractor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/is-special.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/merge-adjacent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/merge-media-queries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/merge-non-adjacent-by-body.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/merge-non-adjacent-by-selector.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/reduce-non-adjacent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/remove-duplicate-media-queries.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/remove-duplicates.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/reorderable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/restructure.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/selectors/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/source-maps/track.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/stringifier/helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/stringifier/one-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/stringifier/simple.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/stringifier/source-maps.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/text/comments-processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/text/escape-store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/text/expressions-processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/text/free-text-processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/text/urls-processor.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/extract-properties.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/extract-selectors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/tokenize.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/tokenizer/tokenize.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/urls/rebase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/urls/reduce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/urls/rewrite.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/compatibility.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/input-source-map-tracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/quote-scanner.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/source-reader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/source-tracker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/split.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/lib/utils/split.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/clean-css/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/clean-css/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/History.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/commander/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/.npmignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/.travis.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/graceful-readlink/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-code-gen/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-code-gen/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-code-gen/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-code-gen/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/lib/handle-filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-filters/lib/handle-filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-filters/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/test/__snapshots__/index.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-filters/test/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/test/cases/filters.include.input.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-filters/test/cases/filters.include.input.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-filters/test/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-filters/test/update-test-cases.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-filters/test/update-test-cases.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-lexer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-lexer/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-lexer/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-lexer/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-lexer/test/__snapshots__/index.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-lexer/test/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-lexer/test/cases/classes.pug" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-lexer/test/cases/classes.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-lexer/test/cases/filters.include.pug" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-lexer/test/cases/filters.include.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-lexer/test/index.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-lexer/test/index.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-linker/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-linker/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-linker/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-linker/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-linker/test/__snapshots__/index.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-linker/test/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/__snapshots__/index.test.js.snap" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/__snapshots__/index.test.js.snap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attr-es2015.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attr-es2015.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs-data.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs-data.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs.js.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs.js.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs.unescaped.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/attrs.unescaped.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/basic.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/basic.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blanks.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blanks.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/block-code.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/block-code.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/block-expansion.shorthands.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/block-expansion.shorthands.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/block-expansion.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/block-expansion.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blockquote.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blockquote.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blocks-in-blocks.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blocks-in-blocks.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blocks-in-if.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/blocks-in-if.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/case-blocks.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/case-blocks.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/case.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/case.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/classes-empty.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/classes-empty.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/classes.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/classes.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.conditionals.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.conditionals.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.escape.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.escape.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.iteration.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.iteration.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/code.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/comments-in-case.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/comments-in-case.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/comments.source.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/comments.source.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/comments.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/comments.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/doctype.custom.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/doctype.custom.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/doctype.default.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/doctype.default.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/doctype.keyword.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/doctype.keyword.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/each.else.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/each.else.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/escape-chars.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/escape-chars.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/escape-test.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/escape-test.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/escaping-class-attribute.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/escaping-class-attribute.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filter-in-include.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filter-in-include.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters-empty.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters-empty.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.coffeescript.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.coffeescript.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.custom.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.custom.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.include.custom.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.include.custom.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.include.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.include.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.inline.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.inline.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.less.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.less.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.markdown.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.markdown.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.nested.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.nested.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.stylus.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/filters.stylus.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/html.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/html.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/html5.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/html5.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-extends-from-root.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-extends-from-root.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-extends-of-common-template.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-extends-of-common-template.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-extends-relative.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-extends-relative.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-only-text-body.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-only-text-body.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-only-text.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-only-text.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-with-text-head.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-with-text-head.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-with-text.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include-with-text.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include.script.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include.script.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include.yield.nested.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/include.yield.nested.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/includes-with-ext-js.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/includes-with-ext-js.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/includes.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/includes.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.alert-dialog.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.alert-dialog.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.defaults.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.defaults.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.include.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.include.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.mixins.block.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.mixins.block.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.mixins.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.mixins.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.recursive.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.recursive.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.whitespace.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.extend.whitespace.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inheritance.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inline-block-comment.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inline-block-comment.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inline-tag.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/inline-tag.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/intepolated-elements.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/intepolated-elements.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/interpolated-mixin.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/interpolated-mixin.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/interpolation.escape.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/interpolation.escape.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.append.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.append.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.append.without-block.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.append.without-block.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.multi.append.prepend.block.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.multi.append.prepend.block.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.prepend.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.prepend.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.prepend.without-block.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/layout.prepend.without-block.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-at-end-of-file.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-at-end-of-file.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-block-with-space.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-block-with-space.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-hoist.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-hoist.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-via-include.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin-via-include.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.attrs.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.attrs.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.block-tag-behaviour.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.block-tag-behaviour.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.blocks.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.blocks.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.merge.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixin.merge.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixins-unused.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixins-unused.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixins.rest-args.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixins.rest-args.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixins.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/mixins.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/namespaces.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/namespaces.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/nesting.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/nesting.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pipeless-comments.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pipeless-comments.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pipeless-filters.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pipeless-filters.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pipeless-tag.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pipeless-tag.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pre.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/pre.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/quotes.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/quotes.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/regression.1794.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/regression.1794.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/regression.784.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/regression.784.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/script.whitespace.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/script.whitespace.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/scripts.non-js.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/scripts.non-js.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/scripts.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/scripts.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/self-closing-html.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/self-closing-html.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/single-period.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/single-period.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/source.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/source.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/styles.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/styles.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/tag-blocks.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/tag-blocks.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/tag.interpolation.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/tag.interpolation.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/tags.self-closing.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/tags.self-closing.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/template.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/template.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/text-block.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/text-block.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/text.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/text.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/utf8bom.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/utf8bom.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/vars.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/vars.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/while.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/while.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/xml.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/xml.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-before-conditional-head.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-before-conditional-head.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-before-conditional.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-before-conditional.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-head.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-head.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-title-head.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-title-head.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-title.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield-title.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield.tokens.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug-parser/test/cases/yield.tokens.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/cases-es2015/attr.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases-es2015/attr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.coffeescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.coffeescript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.include.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.nested.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/filters.nested.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/styles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/cases/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/cases/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output-es2015/attr.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs-data.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/attrs.js.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/classes-empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/classes-empty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.iteration.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.iteration.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters-empty.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters-empty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.coffeescript.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.include.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/filters.nested.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/html5.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/html5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/interpolated-mixin.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/interpolated-mixin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.attrs.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.attrs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.blocks.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.blocks.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.merge.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/mixin.merge.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/regression.1794.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/regression.1794.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/source.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/source.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/styles.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/styles.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/styles.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/styles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/tag.interpolation.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/tag.interpolation.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/output/vars.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/output/vars.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pug/test/pug.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pug/test/pug.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/map.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/javascripts/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/javascripts/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/stylesheets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.sass" afterDir="false" />
@@ -13,7 +266,6 @@
       <change beforePath="$PROJECT_DIR$/routes/dataUkr.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/dataUkr.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,14 +277,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5119382">
+    <splitter split-orientation="horizontal" split-proportion="0.5753425">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/views/index.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="391">
-                  <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+                <state relative-caret-position="272">
+                  <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -40,8 +292,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/views/layout.pug">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
                 </state>
               </provider>
             </entry>
@@ -55,7 +307,7 @@
             <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="255">
-                  <caret line="15" selection-start-line="15" selection-end-line="15" />
+                  <caret line="41" selection-start-line="41" selection-end-line="41" />
                 </state>
               </provider>
             </entry>
@@ -63,17 +315,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/dataRu.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="42">
-                  <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+                <state relative-caret-position="280">
+                  <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/routes/dataUkr.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="255">
-                  <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+                <state relative-caret-position="272">
+                  <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/routes/dataDefault.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="119">
+                  <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
                 </state>
               </provider>
             </entry>
@@ -81,21 +342,30 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/public/stylesheets/style.sass">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="585">
+                  <caret line="270" column="16" lean-forward="true" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/public/stylesheets/style.sass">
+            <entry file="file://$PROJECT_DIR$/routes/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="16" />
+                <state relative-caret-position="541">
+                  <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
                 </state>
               </provider>
             </entry>
@@ -117,6 +387,11 @@
       <find>303030</find>
       <find>2rem</find>
       <find>line-he</find>
+      <find>button</find>
+      <find>blu</find>
+      <find>w80</find>
+      <find>why-us</find>
+      <find>header</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,19 +404,18 @@
         <option value="$PROJECT_DIR$/public/robots.txt" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/routes/dataDefault.js" />
-        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/routes/dataRu.js" />
-        <option value="$PROJECT_DIR$/views/layout.pug" />
-        <option value="$PROJECT_DIR$/public/stylesheets/style.sass" />
-        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
-        <option value="$PROJECT_DIR$/views/index.pug" />
+        <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/routes/dataUkr.js" />
+        <option value="$PROJECT_DIR$/views/index.pug" />
+        <option value="$PROJECT_DIR$/views/layout.pug" />
+        <option value="$PROJECT_DIR$/public/javascripts/main.js" />
+        <option value="$PROJECT_DIR$/public/stylesheets/style.sass" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="1" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -151,7 +425,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -173,6 +446,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -211,24 +485,27 @@
       <option name="presentableId" value="Default" />
       <updated>1553443460614</updated>
       <workItem from="1553443550093" duration="13218000" />
-      <workItem from="1554043133692" duration="16779000" />
+      <workItem from="1554043133692" duration="17958000" />
+      <workItem from="1554483674288" duration="2857000" />
+      <workItem from="1554534508512" duration="18134000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29997000" />
+    <option name="totallyTimeSpent" value="52167000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.15926327" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -247,6 +524,21 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>req.body</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>req.data</expression-string>
+        <language-id>JavaScript</language-id>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>languages.findIndex(l =&gt; l.key === 'ua') &gt; languages.findIndex(l =&gt; l.key === 'ru') ? 'ru' : 'ua';</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -258,11 +550,6 @@
       </expression>
       <expression>
         <expression-string>languages.findIndex(l =&gt; l.key === 'ua')</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>req</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
       </expression>
@@ -295,36 +582,6 @@
             l: sp[0],
             q: sp[1]
         } : null
-    })</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>req.headers['accept-language']
-    .match(/[a-zA-Z]+;q=.+,/)[0]
-    .split(',')
-    .map((s) =&gt; {
-        let sp = s.split(';q=')[0]
-        return s;
-        // return sp.length &gt; 1 ?  {
-        //     l: sp[0],
-        //     q: sp[1]
-        // } : null
-    })</expression-string>
-        <language-id>JavaScript</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>req.headers['accept-language']
-    .match(/[a-zA-Z]+;q=.+,/)[0]
-    .split(',')
-    .map((s) =&gt; {
-        let sp = s.split(';q=')[0]
-        return sp;
-        // return sp.length &gt; 1 ?  {
-        //     l: sp[0],
-        //     q: sp[1]
-        // } : null
     })</expression-string>
         <language-id>JavaScript</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -386,16 +643,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/prod.env.default">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/dataDefault.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/prod.env.default" />
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -406,52 +654,66 @@
     <entry file="file://$PROJECT_DIR$/routes/users.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/dataRu.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        <state relative-caret-position="280">
+          <caret line="32" column="2" selection-start-line="32" selection-start-column="2" selection-end-line="32" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.sass">
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/web-forms.rnc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="188" column="4" selection-start-line="188" selection-start-column="4" selection-end-line="188" selection-end-column="16" />
+        <state relative-caret-position="176">
+          <caret line="322" column="16" selection-start-line="322" selection-start-column="16" selection-end-line="322" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+    <entry file="file://$PROJECT_DIR$/routes/dataDefault.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="35" column="36" selection-start-line="35" selection-start-column="36" selection-end-line="35" selection-end-column="36" />
+        <state relative-caret-position="119">
+          <caret line="7" column="50" lean-forward="true" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/dataUkr.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        <state relative-caret-position="272">
+          <caret line="28" column="36" selection-start-line="28" selection-start-column="36" selection-end-line="28" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="541">
+          <caret line="36" column="5" lean-forward="true" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/javascripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/stylesheets/style.sass">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="270" column="16" lean-forward="true" selection-start-line="270" selection-start-column="16" selection-end-line="270" selection-end-column="16" />
         </state>
       </provider>
     </entry>

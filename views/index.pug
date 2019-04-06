@@ -14,13 +14,13 @@ block content
   section(id='landing-page')
     h1= data.h1
     a.button-orange.contact-link(href=data.contactLink.link)= data.contactLink.text
-    p= data.contactInfo.numbers[0]
+    a#number(href=`tel:${data.contactInfo.numbers[0].replace(' ', '')}`)= data.contactInfo.numbers[0]
   section#why-us
     h2= data.whyUs.title
     ul.w80
       for benefit in data.whyUs.benefits
         li
-          img(alt='star', title=benefit.img.title, src=benefit.img.src, name='benefit')
+          img(alt='benefit', title=benefit.img.title, src=benefit.img.src)
           label(for='benefit')= benefit.title
           p= benefit.text
   section#services
@@ -45,11 +45,12 @@ block content
         li !{data.contactInfo.address}
         li#email= data.contactInfo.email
         for number in data.contactInfo.numbers
-          li=number
+          li.number=number
   section#contact-us
     form.w80
-      input.blue-textfield(placeholder=data.namePlaceHolder, name='name')
-      textarea.blue-textfield(name='message', placeholder=data.messagePlaceHolder)
+      input.blue-textfield(required=true, placeholder=data.namePlaceHolder, name='name')
+      input.blue-textfield(required=true, placeholder=data.numberPlaceHolderm, name='number')
+      textarea.blue-textfield(required=true, name='message', placeholder=data.messagePlaceHolder)
       button.button-orange(type='submit')= data.submitText
   footer © 1823 — 2016 Great Simple Studio
 
