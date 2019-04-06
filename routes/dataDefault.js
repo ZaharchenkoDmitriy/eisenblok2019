@@ -4,5 +4,5 @@ module.exports.logo = {
     src: 'images/logo.png',
     title: 'eisenblock'
 }
-module.exports.linkToUa = 'http://localhost:3000/ua'
-module.exports.linkToRu = 'http://localhost:3000/'
+module.exports.linkToUa = 'https://9cc51339.ngrok.io/ua'
+module.exports.linkToRu = 'https://9cc51339.ngrok.io/'

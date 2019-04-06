@@ -1,5 +1,5 @@
 module.exports.meta = {
-  title: 'WireframeUa',
+  title: 'Eisenblock',
   description: 'Test description'
 };
 
