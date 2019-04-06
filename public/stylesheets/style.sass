@@ -8,7 +8,10 @@ body
   height: 100vh
   overflow-x: hidden
 
-
+textarea
+  font-family: Helvetica, sans-serif
+textarea.blue-textfield::placeholder
+  font-family: Helvetica, sans-serif
 
 *
   margin: 0
@@ -46,6 +49,8 @@ header
       color: white
     a.active
       color: $orange
+    a:hover
+      text-decoration: underline
     span
       margin: 0 5px
   img
@@ -64,12 +69,17 @@ header
       text-align: center
     a
       color: white
+    a:hover
+      color: $orange
 
 .button-orange
   color: white
   background: $orange
   display: inline-block
   text-transform: capitalize
+
+.button-orange:hover
+  box-shadow: 0 0 10px $orange
 
 #landing-page
   background: $darkGrey
@@ -87,11 +97,11 @@ header
     margin-top: 3rem
     padding: 1.7rem 6rem
   #number
-    text-align: right
-    display: block
+    position: absolute
     padding: 0
-    margin-top: calc(60vh - 18.5rem)
-    margin-right: 2rem
+    margin: 0
+    top: 96.5vh
+    right: 2rem
     color: $orange
 
 #why-us
@@ -242,7 +252,14 @@ footer
   .blue-textfield
     max-width: none !important
     height: 5rem
-    font-size: 3rem !important
+    margin-bottom: 1rem
+    font-size: 2rem !important
+  textarea
+    font-family: Helvetica, sans-serif
+    font-size: 1rem !important
+  textarea.blue-textfield::placeholder
+    font-family: Helvetica, sans-serif
+    font-size: 2rem !important
   form
     .button-orange
       margin-top: 2rem !important
@@ -273,11 +290,31 @@ footer
       max-width: 80vw !important
       margin-top: 2rem
     img
-      top: 20rem !important
+      top: 15vh !important
       left: 15vw !important
       margin: auto !important
       max-width: 70vw !important
   #number
     padding: 0
     font-size: 2rem
-    margin-top: calc(60vh - 21rem) !important
+@media (orientation: landscape) and (max-height: 650px)
+  header
+    img
+      max-height: 30vh
+      max-width: none
+      width: auto
+      left: 50vw !important
+      transform: translateX(-50%)
+      top: 20vh !important
+    #languages
+      top: 90vh
+      left: 2rem
+  #number
+    top: 90vh !important
+  #landing-page
+    padding-top: 60vh
+    h1
+      font-size: 1.5rem
+    a.contact-link
+      font-size: 1rem
+      padding: 0.8rem 1rem

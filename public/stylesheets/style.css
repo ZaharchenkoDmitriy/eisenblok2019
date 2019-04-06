@@ -4,6 +4,12 @@ body {
   height: 100vh;
   overflow-x: hidden; }
 
+textarea {
+  font-family: Helvetica, sans-serif; }
+
+textarea.blue-textfield::placeholder {
+  font-family: Helvetica, sans-serif; }
+
 * {
   margin: 0;
   padding: 0;
@@ -44,6 +50,8 @@ header {
       color: white; }
     header #languages a.active {
       color: #f7873f; }
+    header #languages a:hover {
+      text-decoration: underline; }
     header #languages span {
       margin: 0 5px; }
   header img {
@@ -62,12 +70,17 @@ header {
       text-align: center; }
     header ul a {
       color: white; }
+    header ul a:hover {
+      color: #f7873f; }
 
 .button-orange {
   color: white;
   background: #f7873f;
   display: inline-block;
   text-transform: capitalize; }
+
+.button-orange:hover {
+  box-shadow: 0 0 10px #f7873f; }
 
 #landing-page {
   background: #303030;
@@ -84,11 +97,11 @@ header {
     margin-top: 3rem;
     padding: 1.7rem 6rem; }
   #landing-page #number {
-    text-align: right;
-    display: block;
+    position: absolute;
     padding: 0;
-    margin-top: calc(60vh - 18.5rem);
-    margin-right: 2rem;
+    margin: 0;
+    top: 96.5vh;
+    right: 2rem;
     color: #f7873f; }
 
 #why-us {
@@ -235,7 +248,14 @@ footer {
   .blue-textfield {
     max-width: none !important;
     height: 5rem;
-    font-size: 3rem !important; }
+    margin-bottom: 1rem;
+    font-size: 2rem !important; }
+  textarea {
+    font-family: Helvetica, sans-serif;
+    font-size: 1rem !important; }
+  textarea.blue-textfield::placeholder {
+    font-family: Helvetica, sans-serif;
+    font-size: 2rem !important; }
   form .button-orange {
     margin-top: 2rem !important;
     padding: 1.5rem 3rem !important;
@@ -263,13 +283,33 @@ footer {
       max-width: 80vw !important;
       margin-top: 2rem; }
     header img {
-      top: 20rem !important;
+      top: 15vh !important;
       left: 15vw !important;
       margin: auto !important;
       max-width: 70vw !important; }
   #number {
     padding: 0;
-    font-size: 2rem;
-    margin-top: calc(60vh - 21rem) !important; } }
+    font-size: 2rem; } }
+
+@media (orientation: landscape) and (max-height: 650px) {
+  header img {
+    max-height: 30vh;
+    max-width: none;
+    width: auto;
+    left: 50vw !important;
+    transform: translateX(-50%);
+    top: 20vh !important; }
+  header #languages {
+    top: 90vh;
+    left: 2rem; }
+  #number {
+    top: 90vh !important; }
+  #landing-page {
+    padding-top: 60vh; }
+    #landing-page h1 {
+      font-size: 1.5rem; }
+    #landing-page a.contact-link {
+      font-size: 1rem;
+      padding: 0.8rem 1rem; } }
 
 /*# sourceMappingURL=style.css.map */
