@@ -26,7 +26,7 @@ router.post('/contact_us', function (req, res, next) {
   });
   let mailOptions = {
     from: 'EISENBLOCK',
-    to: "imdrchaka@gmail.com",
+    to: "dmitriyvoronkov777@gmail.com",
     subject: '[EISENBLOCK] Сообщение от посетителя',
     html: `<p>От ${msg.name} (${msg.number})</p> <p>${msg.message}</p> `
   };
